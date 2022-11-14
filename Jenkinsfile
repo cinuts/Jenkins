@@ -28,7 +28,7 @@ pipeline
     {
         always
         {
-            emailext body: 'Build Status in detail', subject: 'Build Status', to: 'cinuts10@gmail.com'
+            emailext body: 'Build Status in detail avaialble at the Jenkins site', subject: 'Build Status', to: 'cinuts10@gmail.com'
         }
     }
 }
